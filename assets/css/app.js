@@ -13,3 +13,10 @@
 // When a user clicks the start button, the timer should reset.
 // When a user refreshes or returns to the brower page, the win and loss counts should persist.
 
+// eventlistener for the start press ==> starts the timer and selects a word
+// function wordSelect()
+// wordSelect - randomly choose a word from an array, display '_' for each letter (for loop += "_")
+// function wordGuess() - keydown eventlistener; each keydown set to uppercase and compare key press to the letters of the word with the keydown.key
+// if === display the pressed key in it's appropriate spot (.includes()) as an uppercase letter (use the previous variable)
+// function init() initializes game and renders previous scores on screen
+// variables: word[array], score, length (length of the chosen word)
